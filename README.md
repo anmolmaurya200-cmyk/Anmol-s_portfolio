@@ -6,3 +6,5 @@ A data analytics project focused on understanding **why customers churn and whic
 **Goal:** Turn customer data into actionable insights that can support targeted retention strategies.
 
 [🔗 View Interactive Customer Churn analysis Dashboard](https://public.tableau.com/views/project_17871198432810/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+sql/
+└── customer_churn_analysis.sql
