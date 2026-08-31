@@ -37,6 +37,6 @@ The SQL analysis covers:
 - **Delivery performance** — avg. delivery time, on-time/late rates by shipping mode, and most-delayed products
 - **Trends** — order volume by region, plus monthly order and category sales trends
 
-- [View SQL Queries](sql/supply_chain_analysis1.sql)
+- [View SQL Queries](sql/supply_chain_inventory.sql)
 
 - [View Interactive Supply Chain Management Dashboard](https://public.tableau.com/views/SupplyChainManagementCommandcenter/SupplyChainManagementCommandcenter?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
