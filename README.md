@@ -30,3 +30,13 @@ Stack: Python, pandas, NumPy, Matplotlib, Seaborn, SciPy
 
 **Goal:** Analyze supply chain and order data to quantify delivery delays, evaluate shipping-mode performance, and identify high-impact areas for operational improvement across markets and product categories.
 ### SQL Analysis
+
+The SQL analysis covers:
+- **Database setup** — creates the `supply_chain` DB and previews the DataCo dataset structure
+- **Revenue & products** — total revenue, top 10 products, and cancellation rates
+- **Delivery performance** — avg. delivery time, on-time/late rates by shipping mode, and most-delayed products
+- **Trends** — order volume by region, plus monthly order and category sales trends
+
+- [View SQL Queries](sql/supply_chain_analysis1.sql)
+
+- [View Interactive Supply Chain Management Dashboard](https://public.tableau.com/views/SupplyChainManagementCommandcenter/SupplyChainManagementCommandcenter?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
