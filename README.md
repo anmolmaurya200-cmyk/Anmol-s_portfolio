@@ -19,3 +19,14 @@ The SQL analysis covers:
 
 [🔗 View Interactive Customer Churn analysis Dashboard](https://public.tableau.com/views/project_17871198432810/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
+# [Project 2: Supply Chain Analysis](https://anaconda.com/app/share/notebooks/6ce30631-606e-48c7-bdc8-b21c7f44c2cd/overview)
+### Supply Chain Analysis
+
+EDA on 180,519 order records to identify drivers of delivery delays and shipping inefficiency across a multi-region retail supply chain.
+
+Highlights: 57.28% late-delivery rate · First Class shipping at 100% late · Europe above-average delays · Fishing top category by profit
+
+Stack: Python, pandas, NumPy, Matplotlib, Seaborn, SciPy
+
+**Goal:** Analyze supply chain and order data to quantify delivery delays, evaluate shipping-mode performance, and identify high-impact areas for operational improvement across markets and product categories.
+### SQL Analysis
