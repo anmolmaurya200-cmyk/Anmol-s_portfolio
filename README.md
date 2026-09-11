@@ -50,7 +50,8 @@ Exploratory analysis of 9,216 patient encounters to identify bottlenecks in wait
 **Files:**
 - `Health_care_analysis.ipynb` — Full EDA in Python (pandas, matplotlib): patient volume trends, wait-time distribution, department performance, satisfaction analysis, admission patterns by age group, and a final business insights & recommendations section.
 - `healthcare_analytics_patient_flow_data.sql` — SQL queries validating key metrics (admission rate, average wait time, department volume/satisfaction, temporal patient volume by hour/day/month) as a cross-check against the Python analysis.
-  📄 [View SQL Queries](./healthcare_analytics_patient_flow_data.sql)
+
+   📄 [View SQL Queries](./healthcare_analytics_patient_flow_data.sql)
 
 **Key findings:**
 - Wait times are driven by staffing/scheduling mismatches, not patient volume — Physiotherapy and Gastroenterology have long waits despite comparatively low patient counts.
