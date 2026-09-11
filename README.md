@@ -40,3 +40,22 @@ The SQL analysis covers:
 📄 [View SQL Queries](./Supply_chain_inventory.sql)
 
 [🔗View Interactive Dashboard on Tableau Public](https://public.tableau.com/views/SupplyChainManagementCommandcenter/SupplyChainManagementCommandcenter?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+# [Project 3: Health Care Analysis](https://anaconda.com/app/share/notebooks/6d2705c4-d2d8-46cc-b324-c42e6e6c7e1c/overview)
+### Health Care analysis
+## Healthcare Patient Flow Analysis
+
+Exploratory analysis of 9,216 patient encounters to identify bottlenecks in wait times, department capacity, and patient satisfaction, with actionable recommendations for hospital operations.
+
+**Files:**
+- `Health_care_analysis.ipynb` — Full EDA in Python (pandas, matplotlib): patient volume trends, wait-time distribution, department performance, satisfaction analysis, admission patterns by age group, and a final business insights & recommendations section.
+- `healthcare_analytics_patient_flow_data.sql` — SQL queries validating key metrics (admission rate, average wait time, department volume/satisfaction, temporal patient volume by hour/day/month) as a cross-check against the Python analysis.
+  📄 [View SQL Queries](./healthcare_analytics_patient_flow_data.sql)
+
+**Key findings:**
+- Wait times are driven by staffing/scheduling mismatches, not patient volume — Physiotherapy and Gastroenterology have long waits despite comparatively low patient counts.
+- Satisfaction generally drops as wait time rises, though a few departments buck this trend, suggesting factors beyond speed (e.g. communication) affect the patient experience.
+- Two data quality gaps — missing Department Referral (58.6%) and missing Satisfaction Score (72.7%) — are explicitly flagged throughout, since they limit how confidently department-level findings can be generalized.
+
+[🔗View Interactive Dashboard on Tableau Public](https://public.tableau.com/views/Healthcareanalytics_17888576528670/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
